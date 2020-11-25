@@ -1,68 +1,109 @@
 <!DOCTYPE html>
 <html lang="en" class="h-100">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="../assets/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../assets/style.css" />
     <title>Portfolio</title>
-</head>
+  </head>
 
-<body class="d-flex flex-column h-100">
-    
+  <body>
     <div class="container">
-                <nav class="navbar navbar-light navbar-expand-md">
-                    <div class="container justify-content-center">
-                        <ul class="nav navbar-nav flex-fill w-100 flex-nowrap">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="../index.html" class="sr-only">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./portfolio.html">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../assets/Resume.pdf">Resume</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-        
-                <div class="row">
-                    <div id="title" class="col mb-3 ml-2 justify-content-center">
-                        <h3>Portfolio</h3>
-                    </div>
-                </div>
-                <div id="portfolio" class="row align-items-center">
-                    <br>
-                    <div class="col-sm-4" id="project-2">
-                        <h4>Eat-Da-Burger!</h4>
-                        <img class="project" src="../assets/burger.png" alt="Eat-Da-Burger!">
-                        <a class="link" href="https://github.com/smserpa/burger">GitHub Repository</a>
-                        <a class="link" href="https://node-exp-burger-app.herokuapp.com/">Deployed Application</a>
-                        
-                    </div>
-                    <div class="col-sm-4" id="project-1">
-                        <h4>Random Password Generator</h4>
-                        <img class="project" src="../assets/pswd.png" alt="Password Generator">
-                        <a class="link" href="https://github.com/smserpa/password-generator">GitHub Repository</a>
-                        <a class="link" href="https://smserpa.github.io/password-generator/">Deployed Application</a>
-                    </div>
-                    <div class="col-sm-4" id="project-4">
-                        <h4>Covid Karaoke</h4>
-                        <img class="project" src="../assets/karaoke.png" alt="Covid Karaoke">
-                        <a class="link" href="https://github.com/smserpa/password-generator">GitHub Repository</a>
-                        <a class="link" href="https://covidkaraoke.herokuapp.com/">Deployed Application</a>
-                    </div>
-                    
-                </div>
+      <nav class="navbar navbar-light navbar-expand-md">
+        <div class="container justify-content-center">
+          <ul class="nav navbar-nav flex-fill w-100 flex-nowrap">
+            <li class="nav-item active">
+              <a class="nav-link" href="../index.html" class="sr-only">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../assets/Resume.pdf">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="row">
+        <div id="title" class="col mb-3 ml-2 justify-content-center">
+          <h3>Portfolio</h3>
+        </div>
+      </div>
+      <div id="portfolio" class="row align-items-center">
+        <div class="col-4 projects">
+          <img
+            src="../assets/burger.png"
+            alt="Eat-Da-Burger!"
+            height="200"
+            width="225"
+          />
+          <div class="app-links">
+            <a href="https://node-exp-burger-app.herokuapp.com/" target="blank"
+              ><h4>Eat-Da-Burger!</h4></a
+            >
+            <a href="https://github.com/smserpa/burger" target="blank"
+              ><h4>Application Repository</h4></a
+            >
+          </div>
+        </div>
+        <div class="col-4 projects">
+          <img
+            src="../assets/pswd.png"
+            alt="Password Generator"
+            height="200"
+            width="225"
+          />
+          <div class="app-links">
+            <a
+              href="https://smserpa.github.io/password-generator/"
+              target="blank"
+              ><h4>Password Generator</h4></a
+            >
+            <a
+              href="https://github.com/smserpa/password-generator"
+              target="blank"
+              ><h4>Application Repository</h4></a
+            >
+          </div>
+        </div>
+        <div class="col-4 images">
+          <img
+            src="../assets/karaoke.png"
+            alt="Covid Karaoke"
+            height="200"
+            width="225"
+          />
+          <div class="app-links">
+            <a href="https://covidkaraoke.herokuapp.com/" target="blank"
+              ><h4>Covid Karaoke</h4></a
+            >
+            <a href="https://github.com/vpasamic/covidkaraoke" target="blank"
+              ><h4>Application Repository</h4></a
+            >
+          </div>
+        </div>
+      </div>
     </div>
 
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
