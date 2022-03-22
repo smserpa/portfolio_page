@@ -4,19 +4,9 @@
 
 Initial Full-Stack Web Development portfolio designed to be mobile-first with Bootstrap layout
 
-## Views 
-
-Landing Page
+## Views
 
 ![Landing Page](./assets/portfolio1.png)
-
-Highlighted Work
-
-![Portfolio Page](./assets/portfolio2.png)
-
-Contact Page 
-
-![Contact Page](./assets/portfolio3.png)
 
 ## Portfolio Link
 
